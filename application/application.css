@@ -1,0 +1,74 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-color: #70cdee; 
+}
+
+#bottom{
+	-fx-alignment: center; 
+	-fx-background-color: #caa472;
+}
+
+#playerBar{
+	-fx-background-color: #b99361;
+	-fx-background-radius: 5;
+}
+
+Button{
+	-fx-background-radius: 50%;
+}
+
+#attackOrDoneButton{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, #70cdee 0.0, #000099 100.0 );
+	-fx-text-fill: white;
+}
+
+#attackOrDoneButton:hover{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, #70cdee 0.0, #3333cc 100.0 );
+}
+
+#retreatButton{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, #ff0000 0.0, #990000 100.0 );
+	-fx-text-fill: white;
+}
+
+#retreatButton:hover{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, #ff0000 0.0, #cc3333 100.0 );
+}
+
+#exitButton{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, #e6b3e6 0.0, #996699 100.0 );
+	-fx-text-fill: black;
+}
+
+#exitButton:hover{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, #e6b3e6 0.0, #cc99cc 100.0 );
+}
+
+#troopSliderCancelButton{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, #e6b3e6 0.0, #996699 100.0 );
+	-fx-text-fill: black;
+}
+
+#troopSliderCancelButton:hover{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, #e6b3e6 0.0, #cc99cc 100.0 );
+}
+
+#troopSliderMoveButton{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, #ccffcc 0.0, #003300 100.0 );
+	-fx-text-fill: black;
+}
+
+#troopSliderMoveButton:hover{
+	-fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 50.0% 50.0%, radius 100.0%, #ccffcc 0.0, #336633 100.0 );
+}
+
+#troopSliderBox{
+	-fx-background-color: #caa472;
+	-fx-background-radius: 10;
+	-fx-padding: 10;
+}
+
+#troopSliderText{
+	-fx-background-color: #b99361;
+	-fx-background-radius: 10;
+}
