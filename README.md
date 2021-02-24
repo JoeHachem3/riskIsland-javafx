@@ -1,5 +1,5 @@
 # riskIsland-javafx
-an extandible risk game with one map made of hexagons
+an extendible risk game with one map made of hexagons
 
 this was a small university project using javafx, it contains:
 
