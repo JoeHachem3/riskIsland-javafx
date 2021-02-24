@@ -143,7 +143,7 @@ public abstract class Map {
 	
 	public void distributeInitialReiforcementTroops(Settings s) {
 		for(int i = 0; i < s.getPlayers().length; i++) {
-			s.getPlayers()[i].setNumberOfReinforcementTroops(5/*60 - s.getPlayers().length * 5 - s.getPlayers()[i].getNumberOfOwnedTiles()*/);
+			s.getPlayers()[i].setNumberOfReinforcementTroops(50 - s.getPlayers().length * 5 - s.getPlayers()[i].getNumberOfOwnedTiles());
 		}
 	}
 	
