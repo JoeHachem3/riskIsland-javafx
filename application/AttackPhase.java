@@ -202,6 +202,8 @@ public class AttackPhase extends Phase{
 		map.stopSound(map.getFightSound());
 		
 		getSecondTile().setFill(getSecondTile().getTileColor());
+		
+		map.getDisplayedText().setText("select a terrority to attack from");
 		setFirstTile(null);
 		setSecondTile(null);
 	}
@@ -234,7 +236,7 @@ public class AttackPhase extends Phase{
 		if(map.getCurrentPlayer().getNumberOfOwnedTiles() == map.getNumberOfTiles()) {
 			map.getButtonState().setText("3");
 		}
-		
+		map.getDisplayedText().setText("select a terrority to attack from");
 		
 		setFirstTile(null);
 		setSecondTile(null);
